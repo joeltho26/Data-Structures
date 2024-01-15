@@ -56,6 +56,7 @@ class LinkedList:
         
         if index == 0:
             self.head = Node(data,self.head)
+            return
             
         count = 0
         itr = self.head
@@ -74,6 +75,7 @@ class LinkedList:
         
         if index == 0:
             self.head = self.head.next
+            return
             
         count = 0
         itr = self.head
